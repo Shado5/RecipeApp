@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #9bc4cb;
     text-align: center;
 }
 
-.container {
+.container {            /*the main container*/
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -13,30 +13,33 @@ body {
     border-radius: 8px;
 }
 
-input, button {
+input, button {             /*the input feild and the button*/
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-family: 'PT Sans';
+    font-size: 15px;
 }
 
-button {
-    background-color: #28a745;
-    color: white;
+button {                    /*the button*/
+    background-color: #9bc4cb;
+    color: black;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #218838;
+button:hover {              /*hover over the button*/
+    background-color: #CFEBDF;
+    color: black;
 }
 
-.recipe {
+.recipe {               /*recipe class, created in the js script*/
     text-align: left;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.recipe img {
+.recipe img {            /*recipe image class, created in the js script*/
     width: 100%;
     border-radius: 5px;
 }
