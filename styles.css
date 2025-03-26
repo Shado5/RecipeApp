@@ -37,9 +37,22 @@ button:hover {              /*hover over the button*/
     text-align: left;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    font-family: 'PT Sans';
 }
 
 .recipe img {            /*recipe image class, created in the js script*/
     width: 100%;
     border-radius: 5px;
+}
+
+.links{
+    color:black;
+}
+
+.links:visited{
+    color:black;
+}
+
+.links:hover{
+    color: blue;
 }

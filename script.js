@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Check if a valid source link exists, otherwise display a message
             let fullRecipeLink = meal.strSource
-                ? `<a href="${meal.strSource}" target="_blank">View Full Recipe</a>`
+                ? `<a class="links" href="${meal.strSource}" target="_blank">View Full Recipe...</a>`
                 : `<p>No full recipe available</p>`;
 
             // Set the inner HTML of the div to display the recipe details
